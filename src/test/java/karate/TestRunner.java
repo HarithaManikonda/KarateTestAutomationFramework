@@ -24,7 +24,7 @@ import net.masterthought.cucumber.ReportBuilder;
 
 
 //@RunWith(Karate.class)
-public class SampleRunner {
+public class TestRunner {
 	@Test
     public void testParallel() {
         Results results = Runner.path("classpath:karate")
